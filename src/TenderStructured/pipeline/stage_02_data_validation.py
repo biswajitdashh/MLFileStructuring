@@ -1,7 +1,6 @@
-from textSummarizer.config.configuration import ConfigurationManager
-from textSummarizer.components.data_validation import DataValidation
-from textSummarizer.logging import logger
-
+from TenderStructured.config.configuration import ConfigurationManager
+from TenderStructured.components.data_validation import DataValidation
+from TenderStructured.logging import logger
 
 class DataValidationTrainingPipeline:
     def __init__(self):

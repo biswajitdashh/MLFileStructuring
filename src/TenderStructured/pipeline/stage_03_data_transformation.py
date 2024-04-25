@@ -1,6 +1,6 @@
-from textSummarizer.config.configuration import ConfigurationManager
-from textSummarizer.components.data_transformation import DataTransformation
-from textSummarizer.logging import logger
+from TenderStructured.config.configuration import ConfigurationManager
+from TenderStructured.components.data_transformation import DataTransformation
+from TenderStructured.logging import logger
 
 class DataTransformationTrainingPipeline:
     def __init__(self):
